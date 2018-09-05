@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir tmp | mkdir ./tmp/holberton
+sudo mkdir -p /tmp/holberton
