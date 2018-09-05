@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `file /tmp/imafile`
+echo `file /tmp/imafile` \n
