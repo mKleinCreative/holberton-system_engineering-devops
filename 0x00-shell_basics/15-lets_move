@@ -1,2 +1,2 @@
 #!/bin/bash
-mv [[:uppercase:]]* --target-directory=/tmp/u
+mv [[:uppercase:]]*... -t /tmp/u
