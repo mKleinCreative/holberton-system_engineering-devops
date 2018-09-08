@@ -1,1 +1,2 @@
 #!/bin/bash
+find $PWD -name '*.js' | xargs rm
