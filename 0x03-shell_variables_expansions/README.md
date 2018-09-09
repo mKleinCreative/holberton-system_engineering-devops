@@ -1,0 +1,16 @@
+##README.md
+##0-alias
+##1-hello\_you
+##2-path
+##3-paths
+##4-global\_variables
+##5-local\_variables
+##6-create\_local\_variable
+##7-create\_global\_variable
+##8-true\_knowledge
+##9-divide\_and\_rule
+##10-love\_exponent\_breath
+##11-binary\_to\_decimal
+##12-combinations
+##13-print\_float
+##14-decimal\_to\_hexadecimal
