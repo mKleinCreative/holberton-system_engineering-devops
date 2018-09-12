@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -RA | find . -name '*.gif' -printf "%f\n"
+ls -RA | find . -name '*.gif' -printf "%f\n" | cut -c -4
