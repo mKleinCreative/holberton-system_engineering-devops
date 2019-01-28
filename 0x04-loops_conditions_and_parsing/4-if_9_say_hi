@@ -1,0 +1,13 @@
+#!/bin/bash
+COUNT=0
+while [ $COUNT -lt 10 ]
+do
+	if [ $COUNT = 8 ]
+	then
+		echo "hi"
+		COUNT=$((COUNT+1))
+	else
+		echo "Holberton School"
+		COUNT=$((COUNT+1))
+	fi
+done

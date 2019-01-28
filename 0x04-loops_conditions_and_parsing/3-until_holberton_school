@@ -1,0 +1,8 @@
+#!/bin/bash
+# using an until loop to print Holberton School
+i=0
+until [ $i -gt 9 ]
+do
+	echo "Holberton School"
+	i=$((i+1))
+done

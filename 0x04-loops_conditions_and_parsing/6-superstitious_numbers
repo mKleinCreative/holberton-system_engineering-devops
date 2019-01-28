@@ -1,0 +1,18 @@
+#!/bin/bash
+ct=1
+while [ $ct -lt 21 ]
+do
+	case $ct in
+		5) echo "bad luck from China"
+			echo $ct
+			ct=$((ct+1));;
+		10) echo "bad luck from Japan"
+			echo $ct
+			ct=$((ct+1));;
+		18) echo "bad luck from Italy"
+			echo $ct
+			ct=$((ct+1));;
+		*) echo $ct
+			ct=$((ct+1));;
+	esac
+done

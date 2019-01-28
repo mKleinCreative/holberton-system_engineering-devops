@@ -1,0 +1,18 @@
+#!/bin/bash
+hr=0
+min=1
+echo "Hour: $hr"
+while [ $hr -le 12 ]
+do
+	if [ $min = 60 ]; then
+		min=1
+		hr=$((hr+1))
+		if [ $hr = 13 ]; then
+			break
+		fi
+		echo "Hour: $hr"
+	else
+		echo "$min"
+		min=$((min+1))
+	fi
+done

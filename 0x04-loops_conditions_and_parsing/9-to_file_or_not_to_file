@@ -1,0 +1,20 @@
+#!/bin/bash
+MYFILE="holbertonschool"
+if [ ! -f $MYFILE -a ! -d $MYFILE ]; then
+	echo "$MYFILE file does not exist"
+elif [ ! -d $MYFILE ]; then
+	echo "$MYFILE file exists"
+	if [ ! -s $MYFILE ]; then
+		echo "$MYFILE file is empty"
+	else
+		echo "$MYFILE file is not empty"
+	fi
+	echo "$MYFILE is a regular file"
+elif [ -d $MYFILE ]; then
+	echo "$MYFILE file exists"
+	if [ ! -s $MYFILE ]; then
+		echo "$MYFILE file is empty"
+	else
+		echo "$MYFILE file is not empty"
+	fi
+fi

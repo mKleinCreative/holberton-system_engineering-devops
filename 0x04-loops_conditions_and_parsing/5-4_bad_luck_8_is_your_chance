@@ -1,0 +1,15 @@
+#!/bin/bash
+COUNT=0
+while [ $COUNT -lt 10 ]
+do
+	if [ $COUNT = 3 ]; then
+		echo "bad luck"
+		COUNT=$((COUNT+1))
+	elif [ $COUNT = 7 ]; then
+		echo "good luck"
+		COUNT=$((COUNT+1))
+	else
+		echo "Holberton School"
+		COUNT=$((COUNT+1))
+	fi
+done

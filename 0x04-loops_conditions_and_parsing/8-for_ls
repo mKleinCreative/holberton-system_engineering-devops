@@ -1,0 +1,5 @@
+#!/bin/bash
+for NAME in $(ls)
+do
+echo $NAME | cut -d "-" -f 2-
+done
