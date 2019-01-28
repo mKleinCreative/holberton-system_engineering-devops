@@ -1,0 +1,12 @@
+#!/bin/bash
+while read LINE
+do
+	USERNAME=$(echo $LINE | cut -f1 -d":");
+	GROUP_ID=$(echo $LINE | cut -f4 -d":");
+	HOME_DIRECTORY=$(echo $LINE | cut -f6 -d":");
+	COMMAND=$(echo $LINE | cut -f7 -d":");
+	USER_ID=$(echo $LINE | cut -f3 -d":");
+	PASSWORD=$(echo $LINE | cut -f2 -d":");
+	USER_ID_INFO=$(echo $LINE | cut -f5 -d":");
+	echo "The user $USERNAME is part of the $GROUP_ID gang, lives in $HOME_DIRECTORY and rides $COMMAND. $USER_ID's place is protected by the passcode $PASSWORD, more info about the user here: $USER_ID_INFO"
+done < /etc/passwd
