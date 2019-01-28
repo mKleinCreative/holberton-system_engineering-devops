@@ -1,0 +1,2 @@
+#!/bin/bash
+cat apache-access.log | awk '{ print " " $1 " " $9 }' | uniq -c | sort -nr
