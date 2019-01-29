@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# counts to 20 and shows you bad luck numbers from around the world
 ct=1
 while [ $ct -lt 21 ]
 do

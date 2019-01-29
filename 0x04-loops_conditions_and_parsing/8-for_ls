@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# displays the content of a directory without the first dash
 for NAME in $(ls)
 do
 echo $NAME | cut -d "-" -f 2-

@@ -1,4 +1,5 @@
 #!/bin/usr/env bash
+# gives you information about the file holbertonschool
 MYFILE="holbertonschool"
 if [ ! -f $MYFILE -a ! -d $MYFILE ]; then
 	echo "$MYFILE file does not exist"

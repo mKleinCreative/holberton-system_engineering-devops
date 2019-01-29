@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# counts to 10 and says Hi at 9
 COUNT=0
 while [ $COUNT -lt 10 ]
 do
