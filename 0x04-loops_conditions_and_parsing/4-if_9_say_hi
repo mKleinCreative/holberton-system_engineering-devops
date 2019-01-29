@@ -6,9 +6,7 @@ do
 	if [ $COUNT = 8 ]
 	then
 		echo "hi"
-		COUNT=$((COUNT+1))
-	else
+	fi
 		echo "Holberton School"
 		COUNT=$((COUNT+1))
-	fi
 done
