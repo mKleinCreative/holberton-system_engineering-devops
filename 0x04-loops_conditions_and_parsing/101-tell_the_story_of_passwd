@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# tells a story about your /etc/passwd
 while read LINE
 do
 	USERNAME=$(echo $LINE | cut -f1 -d":");
