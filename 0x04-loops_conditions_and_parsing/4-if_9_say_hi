@@ -3,10 +3,10 @@
 COUNT=0
 while [ $COUNT -lt 10 ]
 do
-	if [ $COUNT = 8 ]
+	echo "Holberton School"
+	COUNT=$((COUNT+1))
+	if [ $COUNT = 9 ]
 	then
 		echo "hi"
 	fi
-		echo "Holberton School"
-		COUNT=$((COUNT+1))
 done
