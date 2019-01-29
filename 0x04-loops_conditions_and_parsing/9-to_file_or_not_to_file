@@ -1,4 +1,4 @@
-#!/bin/usr/env bash
+#!/usr/bin/env bash
 # gives you information about the file holbertonschool
 MYFILE="holbertonschool"
 if [ ! -f $MYFILE -a ! -d $MYFILE ]; then
