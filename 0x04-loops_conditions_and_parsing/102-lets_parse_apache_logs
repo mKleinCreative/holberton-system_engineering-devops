@@ -1,2 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# parses through apache logs and gives back IP's and error codes
 cat apache-access.log | awk '{ print $1 " " $9}'
