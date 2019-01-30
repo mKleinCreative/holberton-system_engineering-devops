@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#kills the infinity and beyond process
+merp () {
+	pgrep bash -a | grep "infinity" | cut -f 1 -d " "
+}
+killme () {
+	kill "$1"
+}
+killme $( merp )

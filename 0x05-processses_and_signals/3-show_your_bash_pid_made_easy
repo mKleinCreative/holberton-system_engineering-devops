@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displays all PID's of bash scripts
+pgrep -l bash
