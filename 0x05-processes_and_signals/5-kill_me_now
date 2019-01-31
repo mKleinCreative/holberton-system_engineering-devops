@@ -6,4 +6,4 @@ merp () {
 killme () {
 	kill "$1"
 }
-killme $( merp )
+killme "$( merp )"
