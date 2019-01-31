@@ -2,7 +2,7 @@
 # prints "To infinity and beyond" indefinitely and cannot be killed
 while :
 do
-	trap 'echo "I AM INVINCIBLE"' SIGTERM
+	trap 'echo "I am invincible!!!"' SIGTERM
 	echo "To infinity and beyond"
 	sleep 2
 done
