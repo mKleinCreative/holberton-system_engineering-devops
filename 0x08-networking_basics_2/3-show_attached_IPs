@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays active IPv4 on current machien
+ifconfig | grep "inet addr" | cut -d":" -f2 | cut -d" " -f1
