@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays ports and shows PID and name of program
+netstat -lp
