@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+trap 'comeHome' DEBUG
+comeHome () {
+while :
+do
+		sleep 2
+		echo $( xargs )
+		SIGCONT
+done
+}
+comeHome
