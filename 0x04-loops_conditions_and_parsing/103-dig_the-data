@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# parses through apache logs and shows number of requests made
-cat apache-access.log | awk '{ print " " $1 " " $9 }' | uniq -c | sort -nr

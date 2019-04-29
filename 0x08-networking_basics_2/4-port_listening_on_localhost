@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# listens to port 90 on yoru localhost
-nc -l 127.0.0.1 98

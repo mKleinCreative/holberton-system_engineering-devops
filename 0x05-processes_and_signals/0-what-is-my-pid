@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# displays the pid of current process
-echo $$

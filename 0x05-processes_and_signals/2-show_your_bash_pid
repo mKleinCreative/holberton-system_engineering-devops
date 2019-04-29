@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# displays line containing bash word
-# shellcheck disable=SC2009
-ps auxf | grep bash | head -n1

@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Printing out Holberton with a While loop in bash
-COUNT=0
-while [ $COUNT -lt 10 ]
-do
-echo "Holberton School"
-COUNT=$((COUNT+1))
-done

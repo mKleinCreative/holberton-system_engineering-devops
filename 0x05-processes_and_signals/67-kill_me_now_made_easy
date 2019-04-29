@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# using pkill to kill given loop
-pkill -f "bash ./7-highlander"
